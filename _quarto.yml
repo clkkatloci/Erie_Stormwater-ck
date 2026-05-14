@@ -1,21 +1,35 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "clkkatloci.github.io"
+  title: "Erie Stormwater"
   navbar:
+    background: "#1B6B8E"
+    foreground: "#FAF7F2"
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: site.qmd
+        text: Site
+      - href: precipitation.qmd
+        text: Precipitation
+      - href: design-storms.qmd
+        text: Design Storms
+      - href: hydrographs.qmd
+        text: Hydrographs
+      - href: results.qmd
+        text: Results
+      - href: about.qmd
+        text: About
 
 format:
   html:
     theme:
       - cosmo
-      - brand
-    css: styles.css
+      - styles.scss
     toc: true
-
-editor: visual
-
+    toc-location: right
+    page-layout: full
+    mainfont: "Inter, system-ui, sans-serif"
+    monofont: "JetBrains Mono, monospace"

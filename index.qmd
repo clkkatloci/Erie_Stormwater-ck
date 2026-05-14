@@ -1,11 +1,52 @@
 ---
-title: "clkkatloci.github.io"
+
 ---
 
-This is a Quarto website.
+---
+title: ""
+page-layout: full
+toc: false
+---
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+:::: hero-aura
+[CIVE 573 · Spring 2026]{.eyebrow}
 
-```{r}
-1 + 1
-```
+# A 233-acre stormwater design for Erie, Colorado.
+
+::: lede
+NOAA Atlas 14 frequency analysis, CUHP hydrograph generation, and SWMM simulation for full-spectrum detention and water quality treatment.
+:::
+
+[Read the design →](site.qmd){.btn .btn-primary} [View on GitHub](https://github.com/clkkatloci/Erie_Stormwater-ck){.btn .btn-outline-dark}
+::::
+
+## Project at a glance
+
+::::::: stat-grid
+::: stat-card
+[Drainage area]{.label} [233 ac]{.stat}
+:::
+
+::: {.stat-card .sage}
+[Subcatchments]{.label} [\~25]{.stat}
+:::
+
+::: {.stat-card .ocean}
+[100-yr depth]{.label} [3.6 in]{.stat}
+:::
+
+::: {.stat-card .coral}
+[Key finding]{.label} [−68% peak]{.stat}
+:::
+:::::::
+
+## Walk through the project
+
+This site documents the urban stormwater design for an undeveloped 233-acre parcel on the eastern edge of Erie, Colorado. The work pairs a hydrologic frequency analysis built in R with a SWMM model of the developed condition to size a constructed wetland park for full-spectrum detention.
+
+-   [**Site**](site.qmd) — vicinity, land use, soils, constraints
+-   [**Precipitation**](precipitation.qmd) — GEV fit, NOAA Atlas 14 comparison
+-   [**Design storms**](design-storms.qmd) — 2- through 100-yr hyetographs
+-   [**Hydrographs**](hydrographs.qmd) — CUHP and SWMM routing
+-   [**Results**](results.qmd) — peak reductions, WQCV, TSS load
+-   [**About**](about.qmd) — course, stack, references

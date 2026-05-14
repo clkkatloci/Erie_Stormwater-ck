@@ -1,0 +1,27 @@
+---
+title: ""
+---
+
+::: {.page-header-ocean}
+[04 · Hydrographs]{.eyebrow}
+
+# CUHP runs and SWMM routing
+
+Pre-development, post-development, and post-development with LID.
+:::
+
+## Modeling approach
+
+Catchment hydrographs were generated using the Colorado Urban Hydrograph Procedure (CUHP) and routed through SWMM 5.2.
+
+## Pre-development
+
+*Pre-development hydrograph results go here.*
+
+## Post-development
+
+*Post-development hydrograph results go here.*
+
+## Post-development with LID
+
+*Post-development with LID hydrograph results go here.*

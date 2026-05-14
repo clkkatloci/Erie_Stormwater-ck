@@ -1,0 +1,138 @@
+/*-- scss:defaults --*/
+
+// Palette
+$navy:        #0F2A44;
+$ocean:       #1B6B8E;
+$sky:         #5FB3D4;
+$sage:        #4A7C59;
+$sage-pale:   #D4E4D4;
+$coral:       #CC785C;
+$coral-pale:  #F5DDD0;
+$ink:         #1A2A33;
+$body-bg:     #FAF7F2;
+$muted:       #6B7785;
+$border:      #E8E2D7;
+
+// Bootstrap overrides
+$body-bg:                $body-bg;
+$body-color:             $ink;
+$primary:                $ocean;
+$link-color:             $coral;
+$link-hover-color:       $navy;
+$navbar-bg:              $ocean;
+$headings-font-weight:   500;
+$headings-color:         $navy;
+$font-family-sans-serif: "Inter", system-ui, -apple-system, sans-serif;
+
+/*-- scss:rules --*/
+
+body { letter-spacing: -0.005em; }
+
+h1, h2, h3, h4 { letter-spacing: -0.015em; }
+
+// Eyebrow label above page titles
+.eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: $ocean;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+.eyebrow-sage { color: $sage; }
+.eyebrow-coral { color: $coral; }
+
+// Hero with full aura gradient (Layout 01)
+.hero-aura {
+  padding: 4rem 2rem 5rem;
+  background:
+    radial-gradient(ellipse 600px 320px at 15% 35%, rgba(212, 228, 212, 0.85) 0%, rgba(212, 228, 212, 0) 60%),
+    radial-gradient(ellipse 480px 360px at 85% 25%, rgba(95, 179, 212, 0.55) 0%, rgba(95, 179, 212, 0) 65%),
+    radial-gradient(ellipse 520px 280px at 70% 95%, rgba(204, 120, 92, 0.45) 0%, rgba(204, 120, 92, 0) 60%),
+    radial-gradient(ellipse 400px 340px at 25% 90%, rgba(74, 124, 89, 0.5) 0%, rgba(74, 124, 89, 0) 60%),
+    #FFFFFF;
+  margin-bottom: 2rem;
+  border-radius: 0;
+}
+.hero-aura h1 {
+  font-size: 2.5rem;
+  max-width: 700px;
+  margin-bottom: 1rem;
+}
+.hero-aura .lede {
+  font-size: 1.1rem;
+  max-width: 520px;
+  color: $ink;
+}
+
+// Shorter analysis-page header (Layout 02)
+.page-header-sage {
+  padding: 2rem 2rem 1.5rem;
+  background:
+    radial-gradient(ellipse 380px 200px at 18% 50%, rgba(212,228,212,0.6) 0%, transparent 70%),
+    radial-gradient(ellipse 320px 180px at 82% 50%, rgba(95,179,212,0.35) 0%, transparent 70%),
+    #FFFFFF;
+  margin-bottom: 2rem;
+}
+.page-header-ocean {
+  padding: 2rem 2rem 1.5rem;
+  background:
+    radial-gradient(ellipse 380px 200px at 18% 50%, rgba(95,179,212,0.45) 0%, transparent 70%),
+    radial-gradient(ellipse 320px 180px at 82% 50%, rgba(212,228,212,0.4) 0%, transparent 70%),
+    #FFFFFF;
+  margin-bottom: 2rem;
+}
+
+// Results-page header (Layout 04)
+.page-header-coral {
+  padding: 2rem 2rem 1.5rem;
+  background:
+    radial-gradient(ellipse 380px 220px at 75% 50%, rgba(204,120,92,0.4) 0%, transparent 70%),
+    radial-gradient(ellipse 320px 180px at 20% 50%, rgba(212,228,212,0.5) 0%, transparent 70%),
+    #FFFFFF;
+  margin-bottom: 2rem;
+}
+
+// Stat cards
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+.stat-card {
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding: 1rem;
+  border-left: 3px solid $navy;
+}
+.stat-card .label {
+  font-size: 0.7rem;
+  color: $muted;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+.stat-card .stat {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 0.25rem 0 0;
+  color: $navy;
+}
+.stat-card.sage    { border-left-color: $sage; }
+.stat-card.sage    .stat { color: $sage; }
+.stat-card.ocean   { border-left-color: $ocean; }
+.stat-card.ocean   .stat { color: $ocean; }
+.stat-card.coral   { background: $coral-pale; border-left-color: $coral; }
+.stat-card.coral   .label, .stat-card.coral .stat { color: #B85A3F; }
+
+// Callouts
+.callout-sage {
+  background: lighten($sage-pale, 4%);
+  border-left: 3px solid $sage;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 6px;
+}
+.callout-sage .eyebrow { color: $sage; margin-bottom: 0.25rem; }

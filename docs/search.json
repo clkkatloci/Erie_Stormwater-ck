@@ -1,0 +1,205 @@
+[
+  {
+    "objectID": "site.html",
+    "href": "site.html",
+    "title": "A 233-acre parcel on Erie’s eastern edge",
+    "section": "",
+    "text": "01 · Site\n\n\nThe vicinity, land use, soils, and constraints that shape the design."
+  },
+  {
+    "objectID": "site.html#vicinity",
+    "href": "site.html#vicinity",
+    "title": "A 233-acre parcel on Erie’s eastern edge",
+    "section": "Vicinity",
+    "text": "Vicinity\nThe project site is located in Erie, Colorado, draining ultimately to the Rural Canal.\nVicinity map and site photos go here."
+  },
+  {
+    "objectID": "site.html#existing-conditions",
+    "href": "site.html#existing-conditions",
+    "title": "A 233-acre parcel on Erie’s eastern edge",
+    "section": "Existing conditions",
+    "text": "Existing conditions\nPre-development land cover is predominantly agricultural with scattered residential parcels. NRCS soils data classifies the area as Hydrologic Soil Group C."
+  },
+  {
+    "objectID": "site.html#proposed-development",
+    "href": "site.html#proposed-development",
+    "title": "A 233-acre parcel on Erie’s eastern edge",
+    "section": "Proposed development",
+    "text": "Proposed development\nThe post-development condition assumes mixed-use residential at typical Erie densities."
+  },
+  {
+    "objectID": "site.html#design-constraints",
+    "href": "site.html#design-constraints",
+    "title": "A 233-acre parcel on Erie’s eastern edge",
+    "section": "Design constraints",
+    "text": "Design constraints\n\nKey constraint The Rural Canal outfall limits the allowable release rate to historic 2-year peak flow."
+  },
+  {
+    "objectID": "precipitation.html",
+    "href": "precipitation.html",
+    "title": "From station record to design depths",
+    "section": "",
+    "text": "02 · Precipitation\n\n\nGEV fit on 71 years of GHCN-D data, cross-validated against NOAA Atlas 14."
+  },
+  {
+    "objectID": "precipitation.html#annual-maximum-series",
+    "href": "precipitation.html#annual-maximum-series",
+    "title": "From station record to design depths",
+    "section": "Annual maximum series",
+    "text": "Annual maximum series\nThe annual maximum 24-hour precipitation depth was extracted from the Boulder GHCN-D record (1953–2024). After screening for missing data, 71 complete water years remained for frequency analysis."
+  },
+  {
+    "objectID": "precipitation.html#gev-fit",
+    "href": "precipitation.html#gev-fit",
+    "title": "From station record to design depths",
+    "section": "GEV fit",
+    "text": "GEV fit\nThe Generalized Extreme Value distribution was fit using L-moments via the lmomco package."
+  },
+  {
+    "objectID": "precipitation.html#design-depths",
+    "href": "precipitation.html#design-depths",
+    "title": "From station record to design depths",
+    "section": "Design depths",
+    "text": "Design depths\n\n\n\nReturn period\nDepth (in)\n\n\n\n\n2-yr\n1.0\n\n\n5-yr\n1.4\n\n\n10-yr\n1.7\n\n\n25-yr\n2.3\n\n\n100-yr\n3.6"
+  },
+  {
+    "objectID": "precipitation.html#comparison-to-noaa-atlas-14",
+    "href": "precipitation.html#comparison-to-noaa-atlas-14",
+    "title": "From station record to design depths",
+    "section": "Comparison to NOAA Atlas 14",
+    "text": "Comparison to NOAA Atlas 14\nThe GEV-derived depths agree with NOAA Atlas 14 within 5% across all return periods."
+  },
+  {
+    "objectID": "hydrographs.html",
+    "href": "hydrographs.html",
+    "title": "CUHP runs and SWMM routing",
+    "section": "",
+    "text": "04 · Hydrographs\n\n\nPre-development, post-development, and post-development with LID."
+  },
+  {
+    "objectID": "hydrographs.html#modeling-approach",
+    "href": "hydrographs.html#modeling-approach",
+    "title": "CUHP runs and SWMM routing",
+    "section": "Modeling approach",
+    "text": "Modeling approach\nCatchment hydrographs were generated using the Colorado Urban Hydrograph Procedure (CUHP) and routed through SWMM 5.2."
+  },
+  {
+    "objectID": "hydrographs.html#pre-development",
+    "href": "hydrographs.html#pre-development",
+    "title": "CUHP runs and SWMM routing",
+    "section": "Pre-development",
+    "text": "Pre-development\nPre-development hydrograph results go here."
+  },
+  {
+    "objectID": "hydrographs.html#post-development",
+    "href": "hydrographs.html#post-development",
+    "title": "CUHP runs and SWMM routing",
+    "section": "Post-development",
+    "text": "Post-development\nPost-development hydrograph results go here."
+  },
+  {
+    "objectID": "hydrographs.html#post-development-with-lid",
+    "href": "hydrographs.html#post-development-with-lid",
+    "title": "CUHP runs and SWMM routing",
+    "section": "Post-development with LID",
+    "text": "Post-development with LID\nPost-development with LID hydrograph results go here."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About this project",
+    "section": "",
+    "text": "06 · About"
+  },
+  {
+    "objectID": "about.html#project",
+    "href": "about.html#project",
+    "title": "About this project",
+    "section": "Project",
+    "text": "Project\nThis site documents the final project for CIVE 573 (Urban Stormwater) — an undeveloped 233-acre parcel on the eastern edge of Erie, Colorado.\nThe R workflow — data tidying, GEV fitting, hyetograph generation, and result visualization — doubles as the final project for ESS 580."
+  },
+  {
+    "objectID": "about.html#course",
+    "href": "about.html#course",
+    "title": "About this project",
+    "section": "Course",
+    "text": "Course\nCIVE 573 · Urban Stormwater ESS 580 · R for Environmental Science Spring 2026"
+  },
+  {
+    "objectID": "about.html#stack",
+    "href": "about.html#stack",
+    "title": "About this project",
+    "section": "Stack",
+    "text": "Stack\nR · Quarto · SWMM · QGIS"
+  },
+  {
+    "objectID": "about.html#references",
+    "href": "about.html#references",
+    "title": "About this project",
+    "section": "References",
+    "text": "References\n\nMile High Flood District. Urban Storm Drainage Criteria Manual, Vol. 1–3. 2024.\nNOAA Atlas 14, Volume 8, Version 2. Precipitation-Frequency Atlas of the United States.\nUSEPA. SWMM 5.2 User’s Manual. 2022."
+  },
+  {
+    "objectID": "design-storms.html",
+    "href": "design-storms.html",
+    "title": "Hyetograph parameters",
+    "section": "",
+    "text": "03 · Design storms\n\n\nMHFD-distributed 2-hour storms across the design spectrum."
+  },
+  {
+    "objectID": "design-storms.html#storm-parameters",
+    "href": "design-storms.html#storm-parameters",
+    "title": "Hyetograph parameters",
+    "section": "Storm parameters",
+    "text": "Storm parameters\n\n\n\n\n\n\n\n\n\n\nReturn period\nDepth (in)\nPeak intensity (in/hr)\nVolume (ac-ft)\nDistribution\n\n\n\n\n2-yr\n1.0\n2.4\n19.4\nMHFD-2hr\n\n\n5-yr\n1.4\n3.4\n27.2\nMHFD-2hr\n\n\n10-yr\n1.7\n4.1\n33.1\nMHFD-2hr\n\n\n25-yr\n2.3\n5.5\n44.7\nMHFD-2hr\n\n\n100-yr\n3.6\n8.6\n69.9\nMHFD-2hr\n\n\n\n\nMethod note Depths drawn from the GEV fit on the previous page. Distribution shape from MHFD Vol. 1, Table RA-7."
+  },
+  {
+    "objectID": "design-storms.html#hyetograph-plots",
+    "href": "design-storms.html#hyetograph-plots",
+    "title": "Hyetograph parameters",
+    "section": "Hyetograph plots",
+    "text": "Hyetograph plots\nHyetograph plots for each return period go here."
+  },
+  {
+    "objectID": "index.html#project-at-a-glance",
+    "href": "index.html#project-at-a-glance",
+    "title": "A 233-acre stormwater design for Erie, Colorado.",
+    "section": "Project at a glance",
+    "text": "Project at a glance\n\n\nDrainage area 233 ac\n\n\nSubcatchments ~25\n\n\n100-yr depth 3.6 in\n\n\nKey finding −68% peak"
+  },
+  {
+    "objectID": "index.html#walk-through-the-project",
+    "href": "index.html#walk-through-the-project",
+    "title": "A 233-acre stormwater design for Erie, Colorado.",
+    "section": "Walk through the project",
+    "text": "Walk through the project\nThis site documents the urban stormwater design for an undeveloped 233-acre parcel on the eastern edge of Erie, Colorado. The work pairs a hydrologic frequency analysis built in R with a SWMM model of the developed condition to size a constructed wetland park for full-spectrum detention.\n\nSite — vicinity, land use, soils, constraints\nPrecipitation — GEV fit, NOAA Atlas 14 comparison\nDesign storms — 2- through 100-yr hyetographs\nHydrographs — CUHP and SWMM routing\nResults — peak reductions, WQCV, TSS load\nAbout — course, stack, references"
+  },
+  {
+    "objectID": "results.html",
+    "href": "results.html",
+    "title": "Peak flow reductions across the design spectrum",
+    "section": "",
+    "text": "05 · Results\n\n\nPre-development · post-development · post-development with LID."
+  },
+  {
+    "objectID": "results.html#key-findings",
+    "href": "results.html#key-findings",
+    "title": "Peak flow reductions across the design spectrum",
+    "section": "Key findings",
+    "text": "Key findings\n\n\n100-yr peak reduction −68%\n\n\nWQCV capture 92%\n\n\nTSS load reduction 71%"
+  },
+  {
+    "objectID": "results.html#hydrograph-comparison",
+    "href": "results.html#hydrograph-comparison",
+    "title": "Peak flow reductions across the design spectrum",
+    "section": "Hydrograph comparison",
+    "text": "Hydrograph comparison\nComparison plot of pre / post / post+LID hydrographs at the 100-yr event goes here."
+  },
+  {
+    "objectID": "results.html#discussion",
+    "href": "results.html#discussion",
+    "title": "Peak flow reductions across the design spectrum",
+    "section": "Discussion",
+    "text": "Discussion\nThe proposed LID configuration meets MHFD criteria for full-spectrum detention and water quality treatment."
+  }
+]

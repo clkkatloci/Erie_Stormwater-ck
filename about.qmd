@@ -1,9 +1,31 @@
 ---
-title: "About"
+title: ""
 ---
 
-About this site
+::: {.page-header-sage}
+[06 · About]{.eyebrow .eyebrow-sage}
 
-```{r}
-1 + 1
-```
+# About this project
+:::
+
+## Project
+
+This site documents the final project for CIVE 573 (Urban Stormwater) — an undeveloped 233-acre parcel on the eastern edge of Erie, Colorado.
+
+The R workflow — data tidying, GEV fitting, hyetograph generation, and result visualization — doubles as the final project for ESS 580.
+
+## Course
+
+CIVE 573 · Urban Stormwater
+ESS 580 · R for Environmental Science
+Spring 2026
+
+## Stack
+
+R · Quarto · SWMM · QGIS
+
+## References
+
+- Mile High Flood District. *Urban Storm Drainage Criteria Manual, Vol. 1–3.* 2024.
+- NOAA Atlas 14, Volume 8, Version 2. *Precipitation-Frequency Atlas of the United States.*
+- USEPA. *SWMM 5.2 User's Manual.* 2022.

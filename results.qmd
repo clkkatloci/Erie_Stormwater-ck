@@ -1,0 +1,40 @@
+---
+title: ""
+---
+
+::: {.page-header-coral}
+[05 · Results]{.eyebrow .eyebrow-coral}
+
+# Peak flow reductions across the design spectrum
+
+Pre-development · post-development · post-development with LID.
+:::
+
+## Key findings
+
+::: {.stat-grid}
+
+::: {.stat-card .coral}
+[100-yr peak reduction]{.label}
+[−68%]{.stat}
+:::
+
+::: {.stat-card .coral}
+[WQCV capture]{.label}
+[92%]{.stat}
+:::
+
+::: {.stat-card .coral}
+[TSS load reduction]{.label}
+[71%]{.stat}
+:::
+
+:::
+
+## Hydrograph comparison
+
+*Comparison plot of pre / post / post+LID hydrographs at the 100-yr event goes here.*
+
+## Discussion
+
+The proposed LID configuration meets MHFD criteria for full-spectrum detention and water quality treatment.

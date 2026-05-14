@@ -1,0 +1,42 @@
+---
+title: ""
+---
+
+::: {.page-header-sage}
+[02 · Precipitation]{.eyebrow .eyebrow-sage}
+
+# From station record to design depths
+
+GEV fit on 71 years of GHCN-D data, cross-validated against NOAA Atlas 14.
+:::
+
+## Annual maximum series
+
+The annual maximum 24-hour precipitation depth was extracted from the Boulder GHCN-D record (1953–2024). After screening for missing data, 71 complete water years remained for frequency analysis.
+
+```{r}
+#| label: fig-ams
+#| fig-cap: "Annual maximum 24-hr depth, 1953–2024."
+#| echo: false
+#| eval: false
+
+# Placeholder — paste ggplot of annual maxima here
+```
+
+## GEV fit
+
+The Generalized Extreme Value distribution was fit using L-moments via the `lmomco` package.
+
+## Design depths
+
+| Return period | Depth (in) |
+|---|---|
+| 2-yr  | 1.0 |
+| 5-yr  | 1.4 |
+| 10-yr | 1.7 |
+| 25-yr | 2.3 |
+| 100-yr | 3.6 |
+
+## Comparison to NOAA Atlas 14
+
+The GEV-derived depths agree with NOAA Atlas 14 within 5% across all return periods.

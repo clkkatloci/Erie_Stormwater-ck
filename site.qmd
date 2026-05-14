@@ -1,0 +1,32 @@
+---
+title: ""
+---
+
+::: {.page-header-sage}
+[01 · Site]{.eyebrow .eyebrow-sage}
+
+# A 233-acre parcel on Erie's eastern edge
+
+The vicinity, land use, soils, and constraints that shape the design.
+:::
+
+## Vicinity
+
+The project site is located in Erie, Colorado, draining ultimately to the Rural Canal.
+
+*Vicinity map and site photos go here.*
+
+## Existing conditions
+
+Pre-development land cover is predominantly agricultural with scattered residential parcels. NRCS soils data classifies the area as Hydrologic Soil Group C.
+
+## Proposed development
+
+The post-development condition assumes mixed-use residential at typical Erie densities.
+
+## Design constraints
+
+::: {.callout-sage}
+[Key constraint]{.eyebrow}
+The Rural Canal outfall limits the allowable release rate to historic 2-year peak flow.
+:::

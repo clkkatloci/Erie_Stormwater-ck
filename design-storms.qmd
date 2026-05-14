@@ -1,0 +1,30 @@
+---
+title: ""
+---
+
+::: {.page-header-ocean}
+[03 · Design storms]{.eyebrow}
+
+# Hyetograph parameters
+
+MHFD-distributed 2-hour storms across the design spectrum.
+:::
+
+## Storm parameters
+
+| Return period | Depth (in) | Peak intensity (in/hr) | Volume (ac-ft) | Distribution |
+|---|---:|---:|---:|---|
+| 2-yr   | 1.0 | 2.4 | 19.4 | MHFD-2hr |
+| 5-yr   | 1.4 | 3.4 | 27.2 | MHFD-2hr |
+| 10-yr  | 1.7 | 4.1 | 33.1 | MHFD-2hr |
+| 25-yr  | 2.3 | 5.5 | 44.7 | MHFD-2hr |
+| 100-yr | 3.6 | 8.6 | 69.9 | MHFD-2hr |
+
+::: {.callout-sage}
+[Method note]{.eyebrow}
+Depths drawn from the GEV fit on the previous page. Distribution shape from MHFD Vol. 1, Table RA-7.
+:::
+
+## Hyetograph plots
+
+*Hyetograph plots for each return period go here.*
